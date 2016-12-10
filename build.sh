@@ -2,8 +2,8 @@
 
 sudo apt-get update && \
 
-sudo apt-get install \
-build-essentials \
+sudo apt-get -y install \
+build-essential \
 libsdl1.2-dev \
 git
 
