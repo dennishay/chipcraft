@@ -24,7 +24,7 @@ wget https://s3.amazonaws.com/assets.minecraft.net/pi/minecraft-pi-0.1.1.tar.gz
 tar xf minecraft-pi-0.1.1.tar.gz
 pushd mcpi
 cp ../mcrpi-wrapper/libbcm_host.so.1.0 libbcm_host.so
-cp ../eglo/libeglo.so libGLESv2.so
-ln -s libGLESv2.so libGLESv2.so
+cp ../eglo/libeglo.so libEGL.so
+ln -s libEGL.so libGLESv2.so
 cp ../start.sh .
 
