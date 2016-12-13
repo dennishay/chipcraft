@@ -3,6 +3,7 @@
 sudo apt-get update && \
 sudo apt-get -y install \
 build-essential \
+git \
 libsdl1.2-dev
 
 git clone https://github.com/xobs/mcrpi-wrapper
